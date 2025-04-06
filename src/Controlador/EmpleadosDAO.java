@@ -22,7 +22,7 @@ public class EmpleadosDAO
 
             pst.setString(1, empleados.getNombre());
             pst.setString(2, empleados.getCargo());
-            pst.setString(3, empleados.getSalario());
+            pst.setInt(3, empleados.getSalario());
 
             int resultado = pst.executeUpdate();
 
@@ -51,7 +51,7 @@ public class EmpleadosDAO
 
             pst.setString(1, empleados.getNombre());
             pst.setString(2, empleados.getCargo());
-            pst.setString(3, empleados.getSalario());
+            pst.setInt(3, empleados.getSalario());
 
             int resultado = pst.executeUpdate();
             if (resultado > 0) {

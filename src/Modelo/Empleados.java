@@ -31,7 +31,7 @@ public class Empleados
         this.nombre = nombre;
     }
 
-    public String getSalario() {
+    public int getSalario() {
         return salario;
     }
 
