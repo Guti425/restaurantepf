@@ -8,6 +8,7 @@ import java.sql.SQLException;
 
 public class EmpleadosDAO
 {
+    //empleados
     ConexionDB conexionDB = new ConexionDB();
     //Agregar
 

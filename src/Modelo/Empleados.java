@@ -2,6 +2,7 @@ package Modelo;
 
 public class Empleados
 {
+    //empleados2
     int id_empleados;
     String nombre;
     int salario;
